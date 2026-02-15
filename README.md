@@ -48,5 +48,5 @@ npm start
 
 ## 👨‍💻 Author
 
-Your Name
+Randuni Nethmini
 
