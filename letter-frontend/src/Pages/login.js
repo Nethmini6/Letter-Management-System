@@ -40,7 +40,7 @@ export default Login;*/
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
-import officeImage from "../assets/img1.jpg";
+import officeImage from "../assests/img1.jpg";
 
 const Login = () => {
   const navigate = useNavigate();
