@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -20,6 +20,15 @@ function App() {
       </header>
     </div>
   );
+}
+
+export default App;*/
+
+import React from "react";
+import Login from "../Pages/Login";
+
+function App() {
+  return <Login />;
 }
 
 export default App;
