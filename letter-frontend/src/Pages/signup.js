@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import { useNavigate } from "react-router-dom";
-//import "./Login.css";
 import officeImage from "../assests/img1.jpg";
 
 const Signup = () => {
