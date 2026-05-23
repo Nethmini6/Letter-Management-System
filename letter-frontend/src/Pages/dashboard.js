@@ -11,7 +11,7 @@ const Dashboard = () => {
       {/* Navbar */}
       <div className="navbar">
         <div className="nav-buttons">
-          <button onClick={() => navigate("/")}>New</button>
+          <button onClick={() => navigate("/new ")}>New</button>
           <button onclick={() => navigate("/")}>Previous</button>
           <button onClick={() => navigate("/")}>Logout</button>
         </div>
