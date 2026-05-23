@@ -288,9 +288,10 @@ function New() {
             />
           </div>
 
-          <button type="submit" className="add-btn">
-            Add
-          </button>
+           
+          <button onClick={() => navigate("/")}>add</button>
+           
+          
 
         </form>
 
