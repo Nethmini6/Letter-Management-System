@@ -29,6 +29,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./pages/login";
 import Signup from "./pages/signup";
 import Dashboard from "./pages/dashboard";
+import New from "./pages/new";
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <Route path="/" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="new" element={<New />}/>
     </Routes>
   );
 }
